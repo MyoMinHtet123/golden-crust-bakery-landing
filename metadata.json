@@ -1,0 +1,6 @@
+{
+  "name": "Golden Crust Bakery",
+  "description": "Artisan breads, handcrafted pastries, and specialty coffee at Golden Crust Bakery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

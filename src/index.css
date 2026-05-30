@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+  --color-brand-50: #fdfbf7;
+  --color-brand-100: #f6f0e5;
+  --color-brand-200: #ebe0cf;
+  --color-brand-300: #dac9af;
+  --color-brand-400: #c1a884;
+  --color-brand-500: #a7885b;
+  --color-brand-600: #937142;
+  --color-brand-700: #7b5b33;
+  --color-brand-800: #62482c;
+  --color-brand-900: #493522;
+  --color-brand-950: #2a1e12;
+}
+
+/* Extra base styling for warm bakery theme */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fdfbf7;
+  color: #2a1e12;
+}
+
+/* Custom Scrollbar for rich design experience */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fcf9f2;
+}
+::-webkit-scrollbar-thumb {
+  background: #dac9af;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c1a884;
+}
+
